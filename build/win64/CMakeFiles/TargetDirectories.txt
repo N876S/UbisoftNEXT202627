@@ -1,0 +1,4 @@
+C:/Coding/C++Projects/UbisoftTorontoAPI_2026/build/win64/CMakeFiles/ContestAPI.dir
+C:/Coding/C++Projects/UbisoftTorontoAPI_2026/build/win64/CMakeFiles/Game.dir
+C:/Coding/C++Projects/UbisoftTorontoAPI_2026/build/win64/CMakeFiles/ALL_BUILD.dir
+C:/Coding/C++Projects/UbisoftTorontoAPI_2026/build/win64/CMakeFiles/ZERO_CHECK.dir
