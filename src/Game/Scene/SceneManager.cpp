@@ -1,15 +1,9 @@
 #include "Scene/SceneManager.h"
 
-SceneManager::SceneManager(int sceneCount) {
-	this->sceneCount = sceneCount;
+SceneManager::SceneManager() {
 	this->currentScene = 0;
-	scenes = new Scene[sceneCount];
-}
-
-SceneManager::~SceneManager() {
-	for (int i = 0; i < sceneCount; i++) {
-		scenes[i].shutDownScene();
-	}
+	Scene s = Scene();
+	scenes.push_back(s);
 }
 
 void SceneManager::updateActiveScene() {
@@ -21,7 +15,9 @@ void SceneManager::drawActiveScene() {
 }
 
 void SceneManager::shutDownScenes() {
-	delete[] scenes;
+	for (Scene& s : scenes) {
+		s.shutDownScene();
+	}
 }
 
 Scene* SceneManager::getActiveScene() {

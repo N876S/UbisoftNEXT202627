@@ -3,20 +3,20 @@
 
 Engine::Engine() {
 	sceneCount = 3;
-	sm = SceneManager(sceneCount);
+	sm = SceneManager();
 
 	Entity e = Entity();
 	sm.getActiveScene()->addEntity(e);
 }
 
-void Engine::Update(const float deltaTime) {
-	sm.drawActiveScene();
-}
-
-void Engine::Render() {
+void Engine::update(const float deltaTime) {
 	sm.updateActiveScene();
 }
 
-void Engine::Shutdown() {
+void Engine::render() {
+	sm.drawActiveScene();
+}
+
+void Engine::shutdown() {
 	sm.shutDownScenes();
 }

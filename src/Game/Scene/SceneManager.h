@@ -8,15 +8,11 @@
 
 class SceneManager {
 private:
-	Scene* scenes;
-	int sceneCount;
+	std::vector<Scene> scenes;
 	int currentScene;
 
 public:
-	SceneManager() = default;
-	SceneManager(int sceneCount);
-
-	~SceneManager();
+	SceneManager();
 
 	Scene* getActiveScene();
 

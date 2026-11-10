@@ -15,7 +15,7 @@ public:
 
 	Engine();
 	
-	void Update(const float deltaTime);
-	void Render();
-	void Shutdown();
+	void update(const float deltaTime);
+	void render();
+	void shutdown();
 };

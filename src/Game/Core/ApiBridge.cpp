@@ -5,22 +5,22 @@
 #pragma once
 
 #include "Core/Engine.h"
+#include "app.h"
 
 static Engine* engine;
 
 void Init() {
-	Engine e = Engine();
-	engine = &e;
+	engine = new Engine();
 }
 
 void Update(const float deltaTime) {
-	engine->Update(deltaTime);
+	engine->update(deltaTime);
 }
 
 void Render() {
-	engine->Render();
+	engine->render();
 }
 
 void Shutdown() {
-	engine->Shutdown();
+	engine->shutdown();
 }
