@@ -23,4 +23,5 @@ void Render() {
 
 void Shutdown() {
 	engine->shutdown();
+	delete engine;
 }

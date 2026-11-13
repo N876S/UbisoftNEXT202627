@@ -373,13 +373,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Core\Engine.h" />
+    <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Input\Input.h" />
+    <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Physics\Collision.h" />
+    <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Rendering\Shapes.h" />
     <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Scene\Entity.h" />
     <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Scene\Scene.h" />
     <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Scene\SceneManager.h" />
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Core\ApiBridge.cpp" />
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Core\Engine.cpp" />
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Input\Input.cpp" />
+    <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Physics\Collision.cpp" />
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Rendering\Renderer.cpp" />
+    <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Rendering\Shapes.cpp" />
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Scene\Entity.cpp" />
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Scene\Scene.cpp" />
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Scene\SceneManager.cpp" />

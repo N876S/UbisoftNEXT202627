@@ -14,8 +14,10 @@ private:
 public:
 	void addEntity(Entity& e);
 
-	void updateEntities();
+	void updateEntities(float dt);
 	void drawEntities();
+
+	void processInputs();
 
 	void shutDownScene();
 };

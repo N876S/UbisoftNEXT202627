@@ -10,7 +10,13 @@
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Input\Input.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Physics\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Rendering\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Rendering\Shapes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Scene\Entity.cpp">
@@ -31,6 +37,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Core\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Input\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Physics\Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Rendering\Shapes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Coding\C++Projects\UbisoftTorontoAPI_2026\src\Game\Scene\Entity.h">

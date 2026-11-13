@@ -6,8 +6,8 @@ SceneManager::SceneManager() {
 	scenes.push_back(s);
 }
 
-void SceneManager::updateActiveScene() {
-	scenes[currentScene].updateEntities();
+void SceneManager::updateActiveScene(float dt) {
+	scenes[currentScene].updateEntities(dt);
 }
 
 void SceneManager::drawActiveScene() {

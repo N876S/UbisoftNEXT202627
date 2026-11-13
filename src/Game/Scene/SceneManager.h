@@ -16,7 +16,7 @@ public:
 
 	Scene* getActiveScene();
 
-	void updateActiveScene();
+	void updateActiveScene(float dt);
 	void drawActiveScene();
 
 	void shutDownScenes();
